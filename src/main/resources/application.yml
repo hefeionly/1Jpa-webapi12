@@ -1,0 +1,35 @@
+server:
+  #端口号
+  port: 8088
+  #路径
+  servlet:
+    context-path: /wh-api/winning
+
+logging:
+  config:
+    classpath: logback-spring.xml
+  level:
+    root: info # 设置系统日志级别 当我们不设置日志级别的时候, 默认是 info
+#    com:
+#      example:
+#        procedure: debug  # 具体到设置文件夹的日志级别
+
+spring:
+  jpa: # JPA 相关配置
+    show-sql: true
+    properties.hibernate.default_schema: dbo
+    database: sql_server
+
+    hibernate:
+      ddl-auto: none
+      #      naming:
+      #        physica-trategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardlmpl
+      database-platform: org.hibernate.dialect.SQLServerDialect
+
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://zhaolin-PC\Winning;database=HIS_DZ
+    username: zl
+    password: 123
+
+

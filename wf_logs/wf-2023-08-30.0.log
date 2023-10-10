@@ -1,0 +1,80 @@
+2023-08-30 10:47:17.966 [main] INFO  com.example.procedure.ProcedureApplication:50 - Starting ProcedureApplication on zhaolIn-PC with PID 16392 (started by Administrator in E:\java\13Jpa-调用SQLServer存储过程向外提供服务)
+2023-08-30 10:47:17.970 [main] INFO  com.example.procedure.ProcedureApplication:648 - No active profile set, falling back to default profiles: default
+2023-08-30 10:47:20.693 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-08-30 10:47:20.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 133ms. Found 1 repository interfaces.
+2023-08-30 10:47:21.311 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aa1b2128] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-30 10:47:22.017 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2023-08-30 10:47:22.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2023-08-30 10:47:22.050 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-08-30 10:47:22.059 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2023-08-30 10:47:22.313 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wh-api/winning]:173 - Initializing Spring embedded WebApplicationContext
+2023-08-30 10:47:22.313 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 4152 ms
+2023-08-30 10:47:23.222 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-08-30 10:47:23.629 [main] INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.3.11.Final}
+2023-08-30 10:47:23.646 [main] INFO  org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+2023-08-30 10:47:24.600 [main] INFO  org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-08-30 10:47:25.016 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-08-30 10:47:25.729 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-08-30 10:47:25.783 [main] INFO  org.hibernate.dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-08-30 10:47:27.819 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 10:47:28.729 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:226 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 10:47:28.929 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-08-30 10:47:29.140 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:47:29.476 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:147 - Context refreshed
+2023-08-30 10:47:29.501 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:150 - Found 1 custom documentation plugin(s)
+2023-08-30 10:47:29.548 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2023-08-30 10:47:29.993 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_1
+2023-08-30 10:47:29.995 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_2
+2023-08-30 10:47:29.996 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_3
+2023-08-30 10:47:29.999 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_4
+2023-08-30 10:47:30.001 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_5
+2023-08-30 10:47:30.002 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_6
+2023-08-30 10:47:30.004 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_7
+2023-08-30 10:47:30.022 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2023-08-30 10:47:30.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path '/wh-api/winning'
+2023-08-30 10:47:30.065 [main] INFO  com.example.procedure.ProcedureApplication:59 - Started ProcedureApplication in 13.291 seconds (JVM running for 15.492)
+2023-08-30 10:48:10.961 [http-nio-8088-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wh-api/winning]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 10:48:10.961 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2023-08-30 10:48:10.969 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 8 ms
+2023-08-30 10:48:47.876 [main] INFO  com.example.procedure.ProcedureApplication:50 - Starting ProcedureApplication on zhaolIn-PC with PID 15752 (started by Administrator in E:\java\13Jpa-调用SQLServer存储过程向外提供服务)
+2023-08-30 10:48:47.882 [main] INFO  com.example.procedure.ProcedureApplication:648 - No active profile set, falling back to default profiles: default
+2023-08-30 10:48:48.762 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-08-30 10:48:48.818 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2023-08-30 10:48:49.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d4cdce1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-30 10:48:49.315 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2023-08-30 10:48:49.327 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8088"]
+2023-08-30 10:48:49.334 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2023-08-30 10:48:49.335 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2023-08-30 10:48:49.488 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wh-api/winning]:173 - Initializing Spring embedded WebApplicationContext
+2023-08-30 10:48:49.488 [main] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1524 ms
+2023-08-30 10:48:49.770 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-08-30 10:48:49.817 [main] INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.3.11.Final}
+2023-08-30 10:48:49.818 [main] INFO  org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+2023-08-30 10:48:49.918 [main] INFO  org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-08-30 10:48:50.021 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-08-30 10:48:50.494 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-08-30 10:48:50.505 [main] INFO  org.hibernate.dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-08-30 10:48:51.164 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-30 10:48:51.563 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:226 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-30 10:48:51.660 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-08-30 10:48:51.762 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-30 10:48:51.917 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:147 - Context refreshed
+2023-08-30 10:48:51.930 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:150 - Found 1 custom documentation plugin(s)
+2023-08-30 10:48:51.958 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2023-08-30 10:48:52.271 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_1
+2023-08-30 10:48:52.272 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_2
+2023-08-30 10:48:52.273 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_3
+2023-08-30 10:48:52.275 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_4
+2023-08-30 10:48:52.276 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_5
+2023-08-30 10:48:52.277 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_6
+2023-08-30 10:48:52.279 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: findSaleQueryControllerUsingPOST_7
+2023-08-30 10:48:52.293 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8088"]
+2023-08-30 10:48:52.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 8088 (http) with context path '/wh-api/winning'
+2023-08-30 10:48:52.314 [main] INFO  com.example.procedure.ProcedureApplication:59 - Started ProcedureApplication in 5.134 seconds (JVM running for 6.041)
+2023-08-30 10:48:58.660 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wh-api/winning]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-30 10:48:58.661 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2023-08-30 10:48:58.776 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 9 ms

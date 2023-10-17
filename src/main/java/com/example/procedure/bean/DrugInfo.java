@@ -35,7 +35,7 @@ import java.math.BigDecimal;
 })
 public class DrugInfo implements Serializable {
     @Id
-    private String drug_info_id;
+    private String drug_info_id1;
     private String drug_code;
     private String drug_name;
     private String drug_name_eng;
